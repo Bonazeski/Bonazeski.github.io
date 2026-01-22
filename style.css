@@ -65,14 +65,20 @@ ul li {
   margin-bottom: 6px;
 }
 
-/* Proyectos */
 .project {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-left: 4px solid #6c63ff;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-left: 5px solid #6c63ff;
   background-color: #fafafa;
-  border-radius: 4px;
+  border-radius: 8px;
 }
+
+/* Separación visual entre proyectos */
+.project:not(:last-child) {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
 
 /* Enlaces */
 a {
